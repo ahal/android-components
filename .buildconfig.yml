@@ -1,6 +1,6 @@
 # Please keep this version in sync with version.txt
 # version.txt should be the new source of truth for version numbers
-componentsVersion: 75.0.0
+componentsVersion: 89.0.0
 # Please add a treeherder group in taskcluster/ci/config.yml if you add a new project here.
 projects:
   concept-awesomebar:
@@ -190,14 +190,6 @@ projects:
   browser-engine-gecko:
     path: components/browser/engine-gecko
     description: 'Engine implementation based on GeckoView.'
-    publish: true
-  browser-engine-gecko-beta:
-    path: components/browser/engine-gecko-beta
-    description: 'Engine implementation based on GeckoView (Beta channel).'
-    publish: true
-  browser-engine-gecko-nightly:
-    path: components/browser/engine-gecko-nightly
-    description: 'Engine implementation based on GeckoView (Nightly).'
     publish: true
   browser-engine-system:
     path: components/browser/engine-system
